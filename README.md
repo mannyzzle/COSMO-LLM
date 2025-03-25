@@ -1,6 +1,6 @@
 # Cosmo: AI-Powered Language Model for Space Analytics and Autonomous Satellite Operations
 
-Cosmo is an AWS-based language model designed to revolutionize satellite fleet management and space missions. By leveraging Amazon S3 for large dataset storage, AWS SageMaker for scalable training, and AWS Lambda for real-time inference, Cosmo transforms astrophysical data into actionable insights to enable autonomous decision-making in space.
+Cosmo is an AWS-based language model designed to for aerospace analytics and space missions. By leveraging Amazon S3 for large dataset storage, AWS SageMaker for scalable training, and AWS Lambda for real-time inference, Cosmo transforms astrophysical data into actionable insights to enable autonomous decision-making in space.
 
 ---
 
