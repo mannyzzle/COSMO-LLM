@@ -1,0 +1,6 @@
+boto3
+transformers
+torch
+datasets
+fastapi
+uvicorn

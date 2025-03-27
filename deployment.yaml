@@ -1,0 +1,23 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cosmo-llm-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cosmo-llm
+  template:
+    metadata:
+      labels:
+        app: cosmo-llm
+    spec:
+      containers:
+      - name: cosmo-llm
+        image: your_dockerhub_username/cosmo-llm:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: MODEL_PATH
+          value: "/app/model_artifacts"
